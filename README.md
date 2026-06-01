@@ -1,188 +1,108 @@
 # 🤖 AI Retention Copilot
 
-An AI-powered CRM intelligence platform that combines Machine Learning and Generative AI to help retention teams identify churn risks, segment customers, generate retention strategies, and create marketing campaigns automatically.
+An AI-powered CRM intelligence platform that combines Machine Learning and Generative AI to help identify churn risks, segment customers, generate retention strategies, and create marketing campaigns automatically.
 
 ---
 
-## 🚀 Project Overview
-
-Customer retention teams spend significant time:
-
-* Analyzing customer behavior
-* Identifying churn risks
-* Creating customer segments
-* Designing retention strategies
-* Writing campaign content
-
-This project automates a large part of that workflow using Machine Learning and AI.
-
----
-
-## 🎯 Features
+## 🚀 Features
 
 ### Machine Learning
 
-✅ Customer Churn Prediction
+* Customer Churn Prediction using Random Forest
+* Customer Segmentation using K-Means
+* Customer Risk Identification
 
-✅ Customer Segmentation
+### AI Capabilities
 
-✅ Customer Risk Identification
-
-### AI-Powered Insights
-
-✅ Retention Strategy Generation
-
-✅ Communication Channel Recommendations
-
-✅ Campaign Timing Recommendations
+* AI-Powered Retention Strategy Generation
+* Communication Channel Recommendations
+* Campaign Timing Suggestions
 
 ### Campaign Generation
 
-✅ Push Notifications
-
-✅ WhatsApp Campaigns
-
-✅ Email Campaigns
+* Push Notification Generation
+* WhatsApp Campaign Generation
+* Email Campaign Generation
 
 ### Dashboard
 
-✅ Customer Segment Distribution
-
-✅ Revenue Analysis
-
-✅ Segment Overview
-
-✅ Interactive Streamlit Dashboard
+* Customer Segment Distribution
+* Revenue Analysis
+* Segment Overview
+* Interactive Streamlit Dashboard
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ Architecture
 
 ```text
 Customer Data
-        ↓
-Machine Learning Churn Prediction
-        ↓
+      ↓
+Churn Prediction
+      ↓
 Customer Segmentation
-        ↓
-AI Retention Strategy Generation
-        ↓
-Campaign Content Generation
-        ↓
-Streamlit Dashboard
+      ↓
+AI Retention Strategy
+      ↓
+Campaign Generation
+      ↓
+Dashboard
 ```
 
 ---
 
-## 📸 Application Screenshots
+## 📸 Screenshots
 
-### Dashboard
+<h3>Dashboard</h3>
+<img src="assets/Dashboard.png" width="1000">
 
-![Dashboard](assets/dashboard.png)
+<h3>AI Retention Strategy Generator</h3>
+<img src="assets/Strategy_Generator.png" width="1000">
 
-### AI Retention Strategy
-
-![Strategy](assets/strategy-generation.png)
-
-### Campaign Generator
-
-![Campaign](assets/campaign-generation.png)
-
----
-
-## 🎥 Demo Video
-
-Watch the complete application walkthrough:
-
-(Add YouTube Link Here)
+<h3>AI Campaign Generator</h3>
+<img src="assets/Campaign_Generator.png" width="1000">
 
 ---
 
 ## ⚙️ Tech Stack
 
-### Machine Learning
-
 * Python
 * Pandas
 * Scikit-Learn
-* Joblib
-
-### AI
-
 * OpenAI API
-* GPT-4.1 Mini
-
-### Dashboard
-
 * Streamlit
 * Plotly
-
-### Development
-
-* VS Code
-* Git
-* GitHub
+* Joblib
 
 ---
 
-## 📂 Project Structure
+## ▶️ Run Locally
 
-```text
-ai-retention-copilot/
+Install dependencies:
 
-├── assets/
-│   ├── dashboard.png
-│   ├── strategy-generation.png
-│   └── campaign-generation.png
-│
-├── data/
-│
-├── models/
-│
-├── src/
-│   ├── data_generator.py
-│   ├── churn_model.py
-│   ├── segmentation.py
-│   ├── ai_recommender.py
-│   └── content_generator.py
-│
-├── app.py
-├── requirements.txt
-├── .gitignore
-└── README.md
+```bash
+pip install -r requirements.txt
 ```
 
----
-
-## ▶️ How It Works
-
-### Step 1
-
-Generate synthetic customer data
+Generate sample customer data:
 
 ```bash
 python src/data_generator.py
 ```
 
-### Step 2
-
-Train churn prediction model
+Train churn prediction model:
 
 ```bash
 python src/churn_model.py
 ```
 
-### Step 3
-
-Generate customer segments
+Generate customer segments:
 
 ```bash
 python src/segmentation.py
 ```
 
-### Step 4
-
-Launch dashboard
+Launch dashboard:
 
 ```bash
 streamlit run app.py
@@ -190,15 +110,15 @@ streamlit run app.py
 
 ---
 
-## 🔮 Future Enhancements
+## 🎯 Business Use Case
 
-* AI Customer Journey Builder
-* Campaign Performance Prediction
-* Retention Uplift Forecasting
-* CRM Workflow Automation
-* CleverTap Integration
-* MoEngage Integration
-* Multi-Step Lifecycle Journeys
+This project simulates how CRM and Lifecycle Marketing teams can leverage Machine Learning and AI to:
+
+* Identify churn-prone customers
+* Understand customer segments
+* Generate retention strategies
+* Create campaign content automatically
+* Reduce manual effort in campaign planning
 
 ---
 
@@ -207,5 +127,3 @@ streamlit run app.py
 Nikunj Keswani
 
 Growth & Retention Marketing | CRM | AI
-
-Building AI-powered solutions for customer engagement and retention.
